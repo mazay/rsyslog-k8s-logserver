@@ -1,0 +1,1 @@
+# rsyslog-k8s-logserver
