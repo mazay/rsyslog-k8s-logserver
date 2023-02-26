@@ -21,7 +21,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            zmazay/mikromanager
+            zmazay/rsyslog-k8s-logserver
           tags: |
             type=semver,pattern={{version}}
             type=ref,event=branch
