@@ -27,9 +27,11 @@ spec:
       annotations:
         prometheus.io/scrape: "false"
     spec:
+      nodeSelector:
+        kubernetes.io/arch: amd64
       containers:
       - name: rsyslog
-        image: zmazay/rsyslog-k8s-logserver:latest
+        image: zmazay/rsyslog-k8s-logserver:master
         imagePullPolicy: Always
         readinessProbe:
           tcpSocket:
