@@ -1,4 +1,4 @@
-FROM alpine:3.23.3
+FROM alpine:3.23.4
 LABEL maintainer="Yevgeniy Valeyev <z.mazay@gmail.com>"
 
 # hadolint ignore=DL3018
